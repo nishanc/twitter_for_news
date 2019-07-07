@@ -7,6 +7,701 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/twitter_for_news.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#hasEntitiesOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#hasEntitiesOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#hasExtendedEntitiesOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#hasExtendedEntitiesOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#hasQuotedStatusOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#hasQuotedStatusOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#hasQuotedStatusPermalinkOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#hasQuotedStatusPermalinkOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#hasSize -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#hasSize"/>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#isTweetedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#isTweetedBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#tweeted"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#User"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#tweeted -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#tweeted">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#Tweet"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#contributors_enabled -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#contributors_enabled">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#created_at -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#created_at">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#default_profile -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#default_profile">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#default_profile_image -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#default_profile_image">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#description">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#favourites_count -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#favourites_count">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#follow_request_sent -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#follow_request_sent">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#followers_count -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#followers_count">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#following -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#following">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#friends_count -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#friends_count">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#geo_enabled -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#geo_enabled">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#id">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#id_str -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#id_str">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#is_translator -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#is_translator">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#lang -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#lang">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#largeDataProperties -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#largeDataProperties">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#listed_count -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#listed_count">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#location -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#location">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#mediaDataProperties -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#mediaDataProperties">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#mediumDataProperties -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#mediumDataProperties">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#name">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#notifications -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#notifications">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#profile_background_color -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#profile_background_color">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#profile_background_image_url -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#profile_background_image_url">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#profile_background_image_url_https -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#profile_background_image_url_https">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#profile_background_tile -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#profile_background_tile">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#profile_banner_url -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#profile_banner_url">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#profile_image_url -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#profile_image_url">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#profile_image_url_https -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#profile_image_url_https">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#profile_link_color -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#profile_link_color">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#profile_sidebar_border_color -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#profile_sidebar_border_color">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#profile_sidebar_fill_color -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#profile_sidebar_fill_color">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#profile_text_color -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#profile_text_color">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#profile_use_background_image -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#profile_use_background_image">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#protected -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#protected">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#quotedStatusDataProperties -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#quotedStatusDataProperties">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#quotedStatusPermalinkDataProperties -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#quotedStatusPermalinkDataProperties">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#screen_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#screen_name">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#smallDataProperties -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#smallDataProperties">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#statuses_count -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#statuses_count">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#thumbDataProperties -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#thumbDataProperties">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#time_zone -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#time_zone">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#translator_type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#translator_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#tweetDataProperties -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#tweetDataProperties">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#url -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#url">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#userDataProperties -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#utc_offset -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#utc_offset">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#verified -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/twitter_for_news.owl#verified">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#userDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#Entities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/twitter_for_news.owl#Entities"/>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#ExtendedEntities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/twitter_for_news.owl#ExtendedEntities"/>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#Hashtags -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/twitter_for_news.owl#Hashtags">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#Entities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#Large -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/twitter_for_news.owl#Large">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#SizesValuePartition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#Media -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/twitter_for_news.owl#Media">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#Entities"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#ExtendedEntities"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#hasSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#SizesValuePartition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#Medium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/twitter_for_news.owl#Medium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#SizesValuePartition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#QuotedStatus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/twitter_for_news.owl#QuotedStatus">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#hasEntitiesOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#Entities"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#hasExtendedEntitiesOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#ExtendedEntities"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#isTweetedBy"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#User"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#QuotedStatusPermalink -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/twitter_for_news.owl#QuotedStatusPermalink"/>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#SizesValuePartition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/twitter_for_news.owl#SizesValuePartition">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/twitter_for_news.owl#ValuePartition"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/twitter_for_news.owl#Large"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/twitter_for_news.owl#Medium"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/twitter_for_news.owl#Small"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/twitter_for_news.owl#Thumb"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#Small -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/twitter_for_news.owl#Small">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#SizesValuePartition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#Symbols -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/twitter_for_news.owl#Symbols">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#Entities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#Thumb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/twitter_for_news.owl#Thumb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#SizesValuePartition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#Tweet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/twitter_for_news.owl#Tweet">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#hasEntitiesOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#Entities"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#hasQuotedStatusOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#QuotedStatus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#hasQuotedStatusPermalinkOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#QuotedStatusPermalink"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#isTweetedBy"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#User"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#Urls -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/twitter_for_news.owl#Urls">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#Entities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#User -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/twitter_for_news.owl#User">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#tweeted"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#Tweet"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#id"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#id_str"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#location"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#screen_name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#User_mentions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/twitter_for_news.owl#User_mentions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/twitter_for_news.owl#Entities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/twitter_for_news.owl#ValuePartition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/twitter_for_news.owl#ValuePartition"/>
 </rdf:RDF>
 
 

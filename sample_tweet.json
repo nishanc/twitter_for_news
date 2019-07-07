@@ -1,0 +1,256 @@
+{
+	"created_at": "Sun May 26 13:52:21 +0000 2019",
+	"id": 1132645652922609664,
+	"id_str": "1132645652922609664",
+	"text": "Donald Trump is slowly sinking into the earth like the walking pile of mulch he is.",
+	"source": "\u003ca href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter for iPhone\u003c\/a\u003e",
+	"truncated": false,
+	"in_reply_to_status_id": null,
+	"in_reply_to_status_id_str": null,
+	"in_reply_to_user_id": null,
+	"in_reply_to_user_id_str": null,
+	"in_reply_to_screen_name": null,
+	"user": {
+		"id": 16504768,
+		"id_str": "16504768",
+		"name": "don\u2019t \ud83d\udc7b, vote!",
+		"screen_name": "mcterzakis",
+		"location": "Boston",
+		"url": null,
+		"description": "Marianna, 32. Bostonian. Furious. Political. Pop culture obsessed. Intersectional feminist. I want to pet your dog. (She\/her.) #blacklivesmatter #friendofthepod",
+		"translator_type": "none",
+		"protected": false,
+		"verified": false,
+		"followers_count": 732,
+		"friends_count": 1432,
+		"listed_count": 32,
+		"favourites_count": 183398,
+		"statuses_count": 80933,
+		"created_at": "Mon Sep 29 00:11:25 +0000 2008",
+		"utc_offset": null,
+		"time_zone": null,
+		"geo_enabled": true,
+		"lang": null,
+		"contributors_enabled": false,
+		"is_translator": false,
+		"profile_background_color": "1A1803",
+		"profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme19\/bg.gif",
+		"profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme19\/bg.gif",
+		"profile_background_tile": false,
+		"profile_link_color": "0099CC",
+		"profile_sidebar_border_color": "FFF8AD",
+		"profile_sidebar_fill_color": "F6FFD1",
+		"profile_text_color": "333333",
+		"profile_use_background_image": true,
+		"profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1132097258105786368\/ng6z9706_normal.jpg",
+		"profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1132097258105786368\/ng6z9706_normal.jpg",
+		"profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/16504768\/1354209594",
+		"default_profile": false,
+		"default_profile_image": false,
+		"following": null,
+		"follow_request_sent": null,
+		"notifications": null
+	},
+	"geo": null,
+	"coordinates": null,
+	"place": null,
+	"contributors": null,
+	"quoted_status_id": 1132608249562324992,
+	"quoted_status_id_str": "1132608249562324992",
+	"quoted_status": {
+		"created_at": "Sun May 26 11:23:44 +0000 2019",
+		"id": 1132608249562324992,
+		"id_str": "1132608249562324992",
+		"text": "Is this photo real and if so WTF? https:\/\/t.co\/UyWnqtDBiP",
+		"display_text_range": [0, 33],
+		"source": "\u003ca href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter for iPhone\u003c\/a\u003e",
+		"truncated": false,
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 2889924959,
+			"id_str": "2889924959",
+			"name": "Claude Taylor",
+			"screen_name": "TrueFactsStated",
+			"location": "DC and on the road. ",
+			"url": "http:\/\/www.maddogpac.com",
+			"description": "Liberal Provocateur. Worked in Clinton White House. I do billboards. Sue me. http:\/\/MadDogPAC.com \u201cLapdog for war mongers and profiteers\u201d.",
+			"translator_type": "none",
+			"protected": false,
+			"verified": true,
+			"followers_count": 217746,
+			"friends_count": 4516,
+			"listed_count": 2341,
+			"favourites_count": 198458,
+			"statuses_count": 151721,
+			"created_at": "Sun Nov 23 23:31:32 +0000 2014",
+			"utc_offset": null,
+			"time_zone": null,
+			"geo_enabled": true,
+			"lang": null,
+			"contributors_enabled": false,
+			"is_translator": false,
+			"profile_background_color": "C0DEED",
+			"profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+			"profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+			"profile_background_tile": false,
+			"profile_link_color": "1DA1F2",
+			"profile_sidebar_border_color": "C0DEED",
+			"profile_sidebar_fill_color": "DDEEF6",
+			"profile_text_color": "333333",
+			"profile_use_background_image": true,
+			"profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1123741583755575296\/pKvEu76__normal.jpg",
+			"profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1123741583755575296\/pKvEu76__normal.jpg",
+			"profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/2889924959\/1558537694",
+			"default_profile": true,
+			"default_profile_image": false,
+			"following": null,
+			"follow_request_sent": null,
+			"notifications": null
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"quote_count": 44,
+		"reply_count": 259,
+		"retweet_count": 169,
+		"favorite_count": 533,
+		"entities": {
+			"hashtags": [],
+			"urls": [],
+			"user_mentions": [],
+			"symbols": [],
+			"media": [{
+				"id": 1132608243266666496,
+				"id_str": "1132608243266666496",
+				"indices": [34, 57],
+				"media_url": "http:\/\/pbs.twimg.com\/media\/D7fVMkmWwAAnMmO.jpg",
+				"media_url_https": "https:\/\/pbs.twimg.com\/media\/D7fVMkmWwAAnMmO.jpg",
+				"url": "https:\/\/t.co\/UyWnqtDBiP",
+				"display_url": "pic.twitter.com\/UyWnqtDBiP",
+				"expanded_url": "https:\/\/twitter.com\/TrueFactsStated\/status\/1132608249562324992\/photo\/1",
+				"type": "photo",
+				"sizes": {
+					"thumb": {
+						"w": 150,
+						"h": 150,
+						"resize": "crop"
+					},
+					"small": {
+						"w": 382,
+						"h": 680,
+						"resize": "fit"
+					},
+					"large": {
+						"w": 1125,
+						"h": 2001,
+						"resize": "fit"
+					},
+					"medium": {
+						"w": 675,
+						"h": 1200,
+						"resize": "fit"
+					}
+				}
+			}]
+		},
+		"extended_entities": {
+			"media": [{
+				"id": 1132608243266666496,
+				"id_str": "1132608243266666496",
+				"indices": [34, 57],
+				"media_url": "http:\/\/pbs.twimg.com\/media\/D7fVMkmWwAAnMmO.jpg",
+				"media_url_https": "https:\/\/pbs.twimg.com\/media\/D7fVMkmWwAAnMmO.jpg",
+				"url": "https:\/\/t.co\/UyWnqtDBiP",
+				"display_url": "pic.twitter.com\/UyWnqtDBiP",
+				"expanded_url": "https:\/\/twitter.com\/TrueFactsStated\/status\/1132608249562324992\/photo\/1",
+				"type": "photo",
+				"sizes": {
+					"thumb": {
+						"w": 150,
+						"h": 150,
+						"resize": "crop"
+					},
+					"small": {
+						"w": 382,
+						"h": 680,
+						"resize": "fit"
+					},
+					"large": {
+						"w": 1125,
+						"h": 2001,
+						"resize": "fit"
+					},
+					"medium": {
+						"w": 675,
+						"h": 1200,
+						"resize": "fit"
+					}
+				}
+			}, {
+				"id": 1132608243241496581,
+				"id_str": "1132608243241496581",
+				"indices": [34, 57],
+				"media_url": "http:\/\/pbs.twimg.com\/media\/D7fVMkgWsAUcw_G.jpg",
+				"media_url_https": "https:\/\/pbs.twimg.com\/media\/D7fVMkgWsAUcw_G.jpg",
+				"url": "https:\/\/t.co\/UyWnqtDBiP",
+				"display_url": "pic.twitter.com\/UyWnqtDBiP",
+				"expanded_url": "https:\/\/twitter.com\/TrueFactsStated\/status\/1132608249562324992\/photo\/1",
+				"type": "photo",
+				"sizes": {
+					"thumb": {
+						"w": 150,
+						"h": 150,
+						"resize": "crop"
+					},
+					"medium": {
+						"w": 831,
+						"h": 434,
+						"resize": "fit"
+					},
+					"large": {
+						"w": 831,
+						"h": 434,
+						"resize": "fit"
+					},
+					"small": {
+						"w": 680,
+						"h": 355,
+						"resize": "fit"
+					}
+				}
+			}]
+		},
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"filter_level": "low",
+		"lang": "en"
+	},
+	"quoted_status_permalink": {
+		"url": "https:\/\/t.co\/EyegFAwuae",
+		"expanded": "https:\/\/twitter.com\/truefactsstated\/status\/1132608249562324992",
+		"display": "twitter.com\/truefactsstate\u2026"
+	},
+	"is_quote_status": true,
+	"quote_count": 0,
+	"reply_count": 0,
+	"retweet_count": 0,
+	"favorite_count": 0,
+	"entities": {
+		"hashtags": [],
+		"urls": [],
+		"user_mentions": [],
+		"symbols": []
+	},
+	"favorited": false,
+	"retweeted": false,
+	"filter_level": "low",
+	"lang": "en",
+	"timestamp_ms": "1558878741852"
+}
